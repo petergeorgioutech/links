@@ -4,9 +4,9 @@
 
 <script>
 export default {
-  transition: {
-    name: "goBack",
-    mode: "out-in"
-  }
+  // transition: {
+  //   name: "goBack",
+  //   mode: "out-in"
+  // }
 }
 </script>

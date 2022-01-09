@@ -46,10 +46,10 @@ import feelzing from "assets/img/brands/feelzing.jpg";
 import autonomous from "assets/img/brands/autonomous.jpg";
 
 export default {
-  transition: {
-    name: "SlideLeft",
-    mode: "out-in"
-  },
+  // transition: {
+  //   name: "SlideLeft",
+  //   mode: "out-in"
+  // },
   data() {
     return {
       placeholderImage: { backgroundImage: `url(https://via.placeholder.com/150x160?text=Image)` },

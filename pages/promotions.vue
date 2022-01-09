@@ -59,10 +59,10 @@ import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 
 export default {
-  transition: {
-    name: "SlideLeft",
-    mode: "out-in"
-  },
+  // transition: {
+  //   name: "SlideLeft",
+  //   mode: "out-in"
+  // },
   methods: {
     copy: function(e) {
       $(".copy-code").removeClass("d-none");

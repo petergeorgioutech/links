@@ -201,10 +201,10 @@ import caldigit from "assets/img/setup/caldigit.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 
 export default {
-  transition: {
-    name: "SlideLeft",
-    mode: "out-in"
-  },
+  // transition: {
+  //   name: "SlideLeft",
+  //   mode: "out-in"
+  // },
   data() {
     return {
       placeholderImage: { backgroundImage: `url(https://via.placeholder.com/150x160?text=Image)` },
