@@ -25,7 +25,7 @@
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
-          <nuxt-link to="/get-in-touch" class="featured-item" :style="profileImage">
+          <nuxt-link to="/get-in-touch" class="featured-item" :style="profile1Image">
             <span class="featured-title">Get In Touch</span>
           </nuxt-link>
         </div>
@@ -52,6 +52,7 @@
 
 <script>
 import profile from "assets/img/profile.jpg";
+import profile1 from "assets/img/profile1.jpg";
 import setup from "assets/img/setup.jpg";
 import vscode from "assets/img/vscode.png";
 import coupon from "assets/img/icons/coupon.png";
@@ -63,6 +64,7 @@ export default {
     return {
       placeholderImage: { backgroundImage: `url(https://via.placeholder.com/150x160?text=Image)` },
       profileImage: { backgroundImage: `url(${profile})` },
+      profile1Image: { backgroundImage: `url(${profile1})` },
       setupImage: { backgroundImage: `url(${setup})` },
       vsCodeImage: { backgroundImage: `url(${vscode})` },
       orbitkeyImage: { backgroundImage: `url(${orbitkey})` },
