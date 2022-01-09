@@ -8,10 +8,10 @@ $bodycolor: rgb(46, 46, 46);
 // Transitions
 
 .goBack-enter-active {
-  transition: transform ease-out 0.3s;
+  transition: transform ease-out 0.2s;
 }
 .goBack-leave-active {
-  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.2s;
 }
 .goBack-enter {
   transform: translateX(-50%);
@@ -21,10 +21,10 @@ $bodycolor: rgb(46, 46, 46);
 }
 
 .SlideLeft-enter-active {
-  transition: transform ease-out 0.3s;
+  transition: transform ease-out 0.2s;
 }
 .SlideLeft-leave-active {
-  transition: transform ease-in 0.3s;
+  transition: transform ease-in 0.2s;
 }
 .SlideLeft-enter {
   transform: translateX(50%);
