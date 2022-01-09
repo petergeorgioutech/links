@@ -21,7 +21,7 @@
           </div>
         </div>
         <div class="row mb-1 featured-items">
-          <nuxt-link to="/setup" class="featured-item" :style="setupImage">
+          <nuxt-link to="/setup" class="featured-item" :style="setupImage" @click="ga_setup_gear">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
@@ -73,6 +73,16 @@ export default {
       partnersImage: { backgroundImage: `url(${partners})` },
       couponImage: { backgroundImage: `url(${coupon})` },
     };
+  },
+  methods: {
+    ga_setup_gear (e) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Go to page',
+        eventAction: 'Navigate',
+        eventLabel: 'My Setup Gear'
+      });
+    }
   }
 };
 </script>
