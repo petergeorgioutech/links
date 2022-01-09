@@ -22,6 +22,12 @@ export default {
       {
         src: "https://code.jquery.com/jquery-3.6.0.min.js",
       },
+    ],
+    script: [
+      {
+        src: "https://www.googletagmanager.com/gtag/js?id=G-M9YSNPHB2S",
+        async: true
+      },
     ]
   },
 

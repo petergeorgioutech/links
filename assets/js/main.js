@@ -1,3 +1,5 @@
-// import 'expose?$!expose?jQuery!jquery';
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-console.log("hello");
+gtag('config', 'G-M9YSNPHB2S');
