@@ -1,7 +1,5 @@
 <template lang="html">
   <div>
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNK4H79"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container px-0 main-wrapper">
       <div class="row"><div class="col cover"><div class="placeholder"></div></div></div>
       <div class="container d-flex flex-column min-vh-70">
@@ -73,8 +71,6 @@ export default {
       partnersImage: { backgroundImage: `url(${partners})` },
       couponImage: { backgroundImage: `url(${coupon})` },
     };
-  },
-  methods: {
   }
 };
 </script>

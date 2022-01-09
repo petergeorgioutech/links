@@ -1,7 +1,5 @@
 <template lang="html">
   <div class="sub-wrapper">
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNK4H79"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <header class="sub-header">
       <nuxt-link to="/" class="back-button" :style="backIcon"></nuxt-link>
