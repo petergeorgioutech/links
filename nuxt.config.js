@@ -1,5 +1,9 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  googleAnalytics: {
+    id: 'UA-216580554-1'
+  },
   head: {
     title: 'petergeorgioutech',
     htmlAttrs: {
@@ -40,6 +44,7 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
