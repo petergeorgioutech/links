@@ -21,7 +21,7 @@ export default {
       },
       {
         hid: 'gtm-script1',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-M9YSNPHB2S',
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-216580554-1',
         defer: true
       },
       {
@@ -31,7 +31,7 @@ export default {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-M9YSNPHB2S');
+          gtag('config', 'UA-216580554-1');
         `,
         type: 'text/javascript',
         charset: 'utf-8'
