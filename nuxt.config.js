@@ -19,8 +19,6 @@ export default {
       {
         src: "https://code.jquery.com/jquery-3.6.0.min.js",
       },
-    ],
-    script: [
       {
         hid: 'gtm-script1',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-M9YSNPHB2S',
@@ -59,7 +57,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/google-analytics'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
