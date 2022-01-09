@@ -11,7 +11,7 @@
 
     <h1 class="title-underlined mb-4">My Setup Gear</h1>
     <p>I have been working hard to create the dream setup which will help boost my productivity and help me achieve my goals as a web developer. I am constantly improving my setup and every product you see has it's purpose. Please find a list below of the items I use within my setup along with a purchase link. Some of the links are affiliate links which help support me as a content creator.</p>
-    <p>Feel free to get in touch if you have any further questions related to the setup.</p>
+    <p>Feel free to <a href="/get-in-touch">get in touch</a> if you have any further questions related to the setup.</p>
     <img src="~/assets/img/setup.jpg" class="img-fluid mb-3"/>
 
     <div class="container d-flex flex-column min-vh-70">
