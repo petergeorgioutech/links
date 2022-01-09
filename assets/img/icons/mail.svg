@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="384px" viewBox="0 0 512 384" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mail</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mail" fill="#330E56" fill-rule="nonzero">
+            <polygon id="Path" points="0 32.791 0 358.722 147.691 165.591"></polygon>
+            <polygon id="Path" points="364.309 165.572 512 358.724 512 32.794"></polygon>
+            <path d="M281.122,182.997 L484.663,0 L27.341,0 L230.776,182.912 C245.197,196.011 266.807,196.011 281.122,182.997 Z" id="Path"></path>
+            <path d="M309.73,214.635 C294.455,228.544 275.255,235.499 256.034,235.499 C236.791,235.499 217.527,228.523 202.167,214.55 L179.532,194.197 L34.381,384 L477.624,384 L332.471,194.197 L309.73,214.635 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>
