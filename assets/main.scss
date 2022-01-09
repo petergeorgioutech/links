@@ -60,8 +60,8 @@ h4{
 
 .main-wrapper {
   overflow: hidden;
-  background-color: white;
   @media (min-width:576px) {
+    background-color: white;
     max-width: 100%;
   }
   @media (min-width:768px) {
