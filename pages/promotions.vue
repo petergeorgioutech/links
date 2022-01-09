@@ -59,6 +59,7 @@ import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 
 export default {
+  layout: 'default',
   // transition: {
   //   name: "SlideLeft",
   //   mode: "out-in"

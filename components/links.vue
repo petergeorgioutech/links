@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div>
     <div class="container px-0 main-wrapper">
       <div class="row"><div class="col cover"><div class="placeholder"></div></div></div>
@@ -18,16 +18,13 @@
             </a>
           </div>
         </div>
-        <div class="row mb-1 featured-items">
+        <div class="row mb-3 featured-items">
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
-          <nuxt-link to="/" class="featured-item" :style="placeholderImage">
-            <span class="featured-title">Placeholder</span>
-          </nuxt-link>
           <nuxt-link to="/" class="featured-item" :style="placeholderImage">
             <span class="featured-title">Placeholder</span>
           </nuxt-link>

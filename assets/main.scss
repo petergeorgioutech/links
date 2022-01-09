@@ -39,6 +39,10 @@ body{
   font-family: 'DM Sans', sans-serif;
   color:$bodycolor;
   font-size: 0.9rem;
+  @media (min-width:576px) {
+    // background-color: rgb(69, 69, 69);
+    background-color: white;
+  }
 }
 
 h1{
@@ -56,6 +60,13 @@ h4{
 
 .main-wrapper {
   overflow: hidden;
+  background-color: white;
+  @media (min-width:576px) {
+    max-width: 100%;
+  }
+  @media (min-width:768px) {
+    max-width: 540px;
+  }
 }
 
 .cover {
@@ -142,6 +153,9 @@ h4{
     border-radius:25px;
     position:relative;
     margin-bottom: 35px;
+    @media (min-width:500px) {
+      height:200px;
+    }
     .featured-title{
       position:absolute;
       left:0;
@@ -191,6 +205,16 @@ h4{
 
 .sub-wrapper{
   padding: 1.5rem 1.5rem;
+  background-color: white;
+  @media (min-width:576px) {
+    .container{
+      max-width: 100%;
+    }
+  }
+  @media (min-width:768px) {
+    max-width: 540px;
+    margin:0 auto;
+  }
 }
 
 .sub-header {

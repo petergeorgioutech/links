@@ -205,6 +205,7 @@ export default {
   //   name: "SlideLeft",
   //   mode: "out-in"
   // },
+  layout: 'default',
   data() {
     return {
       placeholderImage: { backgroundImage: `url(https://via.placeholder.com/150x160?text=Image)` },
