@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   head: {
-    title: 'petergeorgioutech',
+    title: 'Peter Georgiou | @peterpandev',
     htmlAttrs: {
       lang: 'en'
     },
@@ -21,6 +21,20 @@ export default {
       },
     ],
     __dangerouslyDisableSanitizers: ['script'],
+    script: [
+      {
+        hid: 'tag-manager-1',
+        innerHTML: `
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PNK4H79');
+        `,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      }
+    ],
     script: [
       {
         hid: 'gtm-script1',
