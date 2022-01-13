@@ -18,6 +18,13 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           <div class="link">
+            <span class="link-image fill-image" :style="deskpadImage"></span>
+            <span class="link-text">
+              Desk Pad
+            </span>
+            <a href="https://shop.minimaldesksetups.com/products/desk-pad?sca_ref=1578836.V3jOBkjkyk" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="macbookImage"></span>
             <span class="link-text">
               16" Macbook Pro M1 Max
@@ -80,13 +87,7 @@
             </span>
             <a href="https://grovemade.com/desk-shelf-system/" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
-          <div class="link">
-            <span class="link-image fill-image" :style="deskpadImage"></span>
-            <span class="link-text">
-              Desk Pad
-            </span>
-            <a href="https://shop.minimaldesksetups.com/products/desk-pad" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
-          </div>
+          
           <div class="link">
             <span class="link-image fill-image" :style="deltahubImage"></span>
             <span class="link-text">

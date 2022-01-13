@@ -23,6 +23,13 @@
             <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="mindesksetupImage"></span>
+            <span class="link-text">
+              Minimal Desk Setups
+            </span>
+            <a href="https://shop.minimaldesksetups.com/products/desk-pad?sca_ref=1578836.V3jOBkjkyk" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="orbitkeyImage"></span>
             <span class="link-text">
               Clever Organisation
@@ -44,6 +51,7 @@ import back from "assets/img/icons/back.svg";
 import orbitkey from "assets/img/brands/orbitkey.svg";
 import feelzing from "assets/img/brands/feelzing.jpg";
 import autonomous from "assets/img/brands/autonomous.jpg";
+import mindesksetup from "assets/img/brands/mindesksetup.webp";
 
 export default {
   // transition: {
@@ -59,6 +67,7 @@ export default {
       orbitkeyImage: { backgroundImage: `url(${orbitkey})` },
       feelzingImage: { backgroundImage: `url(${feelzing})` },
       autonomousImage: { backgroundImage: `url(${autonomous})` },
+      mindesksetupImage: { backgroundImage: `url(${mindesksetup})` },
     };
   }
 };
