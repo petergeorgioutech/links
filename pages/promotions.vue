@@ -28,10 +28,10 @@
             <span class="link-image fill-image" :style="feelzingImage"></span>
             <span class="link-text">
               Feelzing Energy Patches <br>
-              <span class="link-description">Get 20% Off</span>
+              <span class="link-description">Get 15% Off</span>
             </span>
-            <button class="copy-code" :style="copyImage" @click="copy" data-code="peter20"></button>
-            <a href="//feelzing.com/peterpandev" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="PETERPANDEV"></button>
+            <a href="https://feelzing.com/0ck56cul3q" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
           <div class="link" data-code="peter20">
             <span class="link-image fill-image" :style="hustlerangeImage"></span>

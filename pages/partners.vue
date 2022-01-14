@@ -36,6 +36,13 @@
             </span>
             <a href="https://bit.ly/32K5vNv" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
+          <div class="link">
+            <span class="link-image fill-image" :style="feelzingImage"></span>
+            <span class="link-text">
+              Feelzing Energy Patches
+            </span>
+            <a href="https://feelzing.com/0ck56cul3q" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
 
         </div>
       </div>
