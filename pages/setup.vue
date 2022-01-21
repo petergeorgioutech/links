@@ -25,6 +25,13 @@
             <a href="https://shop.minimaldesksetups.com/products/desk-pad?sca_ref=1578836.V3jOBkjkyk" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="nuphyImage"></span>
+            <span class="link-text">
+              Nuphy Air 75
+            </span>
+            <a href="https://nuphy.com/products/air75?sca_ref=1603140.JcD34K3x3S" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="macbookImage"></span>
             <span class="link-text">
               16" Macbook Pro M1 Max
@@ -108,13 +115,6 @@
               GRID&reg; 4S
             </span>
             <a href="https://gridstudio.cc/products/grid%C2%AE4s" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
-          </div>
-          <div class="link">
-            <span class="link-image fill-image" :style="nuphyImage"></span>
-            <span class="link-text">
-              Nuphy Air 75
-            </span>
-            <a href="https://nuphy.com/products/air75" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="logitechImage"></span>
