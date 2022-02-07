@@ -25,9 +25,16 @@
             <a href="https://shop.minimaldesksetups.com/products/desk-pad?sca_ref=1578836.V3jOBkjkyk" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="nuphyImage2"></span>
+            <span class="link-text">
+              Nuphy Air60
+            </span>
+            <a href="https://nuphy.com/products/air60?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="nuphyImage"></span>
             <span class="link-text">
-              Nuphy Air 75
+              Nuphy Air75
             </span>
             <a href="https://nuphy.com/products/air75?sca_ref=1603140.JcD34K3x3S" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
@@ -189,6 +196,7 @@ import deskpad from "assets/img/setup/deskpad.jpg";
 import deltahub from "assets/img/setup/deltahub.jpg";
 import benq from "assets/img/setup/benq.jpg";
 import nuphy from "assets/img/setup/nuphy.jpg";
+import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 import macbook from "assets/img/setup/macbook.jpg";
 import govee from "assets/img/setup/govee.jpg";
 import logitech from "assets/img/setup/logitech.jpg";
@@ -224,6 +232,7 @@ export default {
       deltahubImage: { backgroundImage: `url(${deltahub})` },
       benqImage: { backgroundImage: `url(${benq})` },
       nuphyImage: { backgroundImage: `url(${nuphy})` },
+      nuphyImage2: { backgroundImage: `url(${nuphy2})` },
       macbookImage: { backgroundImage: `url(${macbook})` },
       goveeImage: { backgroundImage: `url(${govee})` },
       logitechImage: { backgroundImage: `url(${logitech})` },
