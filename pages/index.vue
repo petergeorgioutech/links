@@ -19,6 +19,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
+          <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
+            <span class="featured-title">Zero To Mastery</span>
+          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
@@ -58,6 +61,7 @@ import vscode from "assets/img/vscode.png";
 import coupon from "assets/img/icons/coupon.png";
 import orbitkey from "assets/img/brands/orbitkey.svg";
 import partners from "assets/img/partners.svg";
+import ztm from "assets/img/ztm.jpg";
 export default {
   layout: 'default',
   data() {
@@ -70,6 +74,7 @@ export default {
       orbitkeyImage: { backgroundImage: `url(${orbitkey})` },
       partnersImage: { backgroundImage: `url(${partners})` },
       couponImage: { backgroundImage: `url(${coupon})` },
+      ztmImage: { backgroundImage: `url(${ztm})` },
     };
   }
 };
