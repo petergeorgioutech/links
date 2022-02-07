@@ -36,7 +36,7 @@
             <span class="link-text">
               Nuphy Air75
             </span>
-            <a href="https://nuphy.com/products/air75?sca_ref=1603140.JcD34K3x3S" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://nuphy.com/products/air75?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="macbookImage"></span>
