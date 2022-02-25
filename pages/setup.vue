@@ -46,6 +46,13 @@
             <a href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch-space-gray-10-core-cpu-32-core-gpu-1tb#" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="xreartImage"></span>
+            <span class="link-text">
+              Xreart iPhone 5S Frame
+            </span>
+            <a href="https://xreart.com/?ref=0ck56cul3q" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="smartdeskproImage"></span>
             <span class="link-text">
               SmartDesk Pro
@@ -208,6 +215,7 @@ import mazda from "assets/img/setup/mazda.jpg";
 import divoom from "assets/img/setup/divoom.jpg";
 import caldigit from "assets/img/setup/caldigit.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
+import xreart from "assets/img/setup/xreart.jpg";
 
 export default {
   // transition: {
@@ -244,6 +252,7 @@ export default {
       divoomImage: { backgroundImage: `url(${divoom})` },
       caldigitImage: { backgroundImage: `url(${caldigit})` },
       hustlerangeImage: { backgroundImage: `url(${hustlerange})` },
+      xreartImage: { backgroundImage: `url(${xreart})` },
     };
   }
 };

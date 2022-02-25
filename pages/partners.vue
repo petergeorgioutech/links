@@ -30,6 +30,13 @@
             <a href="https://shop.minimaldesksetups.com/products/desk-pad?sca_ref=1578836.V3jOBkjkyk" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="xreartImage"></span>
+            <span class="link-text">
+              Xreart Frames
+            </span>
+            <a href="https://xreart.com/?ref=0ck56cul3q" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="orbitkeyImage"></span>
             <span class="link-text">
               Clever Organisation
@@ -59,6 +66,7 @@ import orbitkey from "assets/img/brands/orbitkey.svg";
 import feelzing from "assets/img/brands/feelzing.jpg";
 import autonomous from "assets/img/brands/autonomous.jpg";
 import mindesksetup from "assets/img/brands/mindesksetup.webp";
+import xreart from "assets/img/setup/xreart.jpg";
 
 export default {
   // transition: {
@@ -75,6 +83,7 @@ export default {
       feelzingImage: { backgroundImage: `url(${feelzing})` },
       autonomousImage: { backgroundImage: `url(${autonomous})` },
       mindesksetupImage: { backgroundImage: `url(${mindesksetup})` },
+      xreartImage: { backgroundImage: `url(${xreart})` },
     };
   }
 };

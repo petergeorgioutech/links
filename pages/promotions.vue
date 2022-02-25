@@ -42,6 +42,15 @@
             <button class="copy-code" :style="copyImage" @click="copy" data-code="PETER20"></button>
             <a href="https://hustlerange.com/discount/PETER20" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
+          <div class="link" data-code="peterpandev">
+            <span class="link-image fill-image" :style="xreartImage"></span>
+            <span class="link-text">
+              Xreart Frames <br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
+            <a href="https://xreart.com/?ref=0ck56cul3q" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -57,6 +66,7 @@ import copy from "assets/img/icons/copy.svg";
 import feelzing from "assets/img/brands/feelzing.jpg";
 import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
+import xreart from "assets/img/setup/xreart.jpg";
 
 export default {
   layout: 'default',
@@ -85,6 +95,7 @@ export default {
       feelzingImage: { backgroundImage: `url(${feelzing})` },
       smartdeskproImage: { backgroundImage: `url(${smartdeskpro})` },
       hustlerangeImage: { backgroundImage: `url(${hustlerange})` },
+      xreartImage: { backgroundImage: `url(${xreart})` },
     };
   }
 };
