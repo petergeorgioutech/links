@@ -51,6 +51,15 @@
             <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
             <a href="https://xreart.com/?ref=0ck56cul3q" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
+          <div class="link" data-code="peter10">
+            <span class="link-image fill-image" :style="iswiftImage"></span>
+            <span class="link-text">
+              iSwift Pi Max <br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="peter10"></button>
+            <a href="https://iswift.us/peterpandev" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -67,6 +76,7 @@ import feelzing from "assets/img/brands/feelzing.jpg";
 import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 import xreart from "assets/img/setup/xreart.jpg";
+import iswift from "assets/img/brands/iswift.jpg";
 
 export default {
   layout: 'default',
@@ -96,6 +106,7 @@ export default {
       smartdeskproImage: { backgroundImage: `url(${smartdeskpro})` },
       hustlerangeImage: { backgroundImage: `url(${hustlerange})` },
       xreartImage: { backgroundImage: `url(${xreart})` },
+      iswiftImage: { backgroundImage: `url(${iswift})` },
     };
   }
 };
