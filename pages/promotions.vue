@@ -15,6 +15,15 @@
     <div class="container d-flex flex-column min-vh-70">
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
+          <div class="link" data-code="peterpandev">
+            <span class="link-image fill-image" :style="nuphyImage2"></span>
+            <span class="link-text">
+              Nuphy Air 60 & 75 <br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
+            <a href="https://nuphy.com/products/air60?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
           <div class="link" data-code="peter20">
             <span class="link-image fill-image" :style="smartdeskproImage"></span>
             <span class="link-text">
@@ -77,6 +86,7 @@ import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 import xreart from "assets/img/setup/xreart.jpg";
 import iswift from "assets/img/brands/iswift.jpg";
+import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 
 export default {
   layout: 'default',
@@ -107,6 +117,7 @@ export default {
       hustlerangeImage: { backgroundImage: `url(${hustlerange})` },
       xreartImage: { backgroundImage: `url(${xreart})` },
       iswiftImage: { backgroundImage: `url(${iswift})` },
+      nuphyImage2: { backgroundImage: `url(${nuphy2})` },
     };
   }
 };
