@@ -19,6 +19,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
+          <a href="https://bit.ly/3vkoiKA" target="_blank" class="featured-item" :style="galaxyImage">
+            <span class="featured-title">Hack the galaxy</span>
+          </a>
           <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
             <span class="featured-title">Zero To Mastery</span>
           </a>
@@ -62,6 +65,7 @@ import coupon from "assets/img/icons/coupon.png";
 import orbitkey from "assets/img/brands/orbitkey.svg";
 import partners from "assets/img/partners.svg";
 import ztm from "assets/img/ztm.jpg";
+import galaxy from "assets/img/galaxy.jpg";
 export default {
   layout: 'default',
   data() {
@@ -75,6 +79,7 @@ export default {
       partnersImage: { backgroundImage: `url(${partners})` },
       couponImage: { backgroundImage: `url(${coupon})` },
       ztmImage: { backgroundImage: `url(${ztm})` },
+      galaxyImage: { backgroundImage: `url(${galaxy})` },
     };
   }
 };
