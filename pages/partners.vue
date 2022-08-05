@@ -18,6 +18,13 @@
           <div class="link">
             <span class="link-image fill-image" :style="autonomousImage"></span>
             <span class="link-text">
+              ErgoChair Pro
+            </span>
+            <a href="https://www.autonomous.ai/office-chairs/ergonomic-chair?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=Instagram&utm_term=22PETER" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
+            <span class="link-image fill-image" :style="autonomousImage"></span>
+            <span class="link-text">
               SmartDesk Pro
             </span>
             <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn">Shop Now</a>

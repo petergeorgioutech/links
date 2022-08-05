@@ -15,6 +15,25 @@
     <div class="container d-flex flex-column min-vh-70">
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
+          
+          <div class="link" data-code="22PETER">
+            <span class="link-image fill-image" :style="ergochairImage"></span>
+            <span class="link-text">
+              Autonomous ErgoChair Pro <br>
+              <span class="link-description">Get 4% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="22PETER"></button>
+            <a href="https://www.autonomous.ai/office-chairs/ergonomic-chair?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=Instagram&utm_term=22PETER" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
+          <div class="link" data-code="22PETER">
+            <span class="link-image fill-image" :style="smartdeskproImage"></span>
+            <span class="link-text">
+              Autonomous SmartDesk Pro <br>
+              <span class="link-description">Get 4% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="22PETER"></button>
+            <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
           <div class="link" data-code="peterpandev">
             <span class="link-image fill-image" :style="nuphyImage2"></span>
             <span class="link-text">
@@ -23,15 +42,6 @@
             </span>
             <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
             <a href="https://nuphy.com/products/air60?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
-          </div>
-          <div class="link" data-code="peter20">
-            <span class="link-image fill-image" :style="smartdeskproImage"></span>
-            <span class="link-text">
-              Autonomous SmartDesk Pro <br>
-              <span class="link-description">Get 4% Off</span>
-            </span>
-            <button class="copy-code" :style="copyImage" @click="copy" data-code="22PETER"></button>
-            <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
           <div class="link" data-code="peter20">
             <span class="link-image fill-image" :style="feelzingImage"></span>
@@ -87,6 +97,7 @@ import hustlerange from "assets/img/setup/hustlerange.jpg";
 import xreart from "assets/img/setup/xreart.jpg";
 import iswift from "assets/img/brands/iswift.jpg";
 import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
+import ergochair from "assets/img/setup/ergochair.jpg";
 
 export default {
   layout: 'default',
@@ -118,6 +129,7 @@ export default {
       xreartImage: { backgroundImage: `url(${xreart})` },
       iswiftImage: { backgroundImage: `url(${iswift})` },
       nuphyImage2: { backgroundImage: `url(${nuphy2})` },
+      ergochairImage: { backgroundImage: `url(${ergochair})` },
     };
   }
 };

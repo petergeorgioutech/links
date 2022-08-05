@@ -39,6 +39,13 @@
             <a href="https://nuphy.com/products/air75?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="ergochairImage"></span>
+            <span class="link-text">
+              ErgoChair Pro
+            </span>
+            <a href="https://www.autonomous.ai/office-chairs/ergonomic-chair?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=Instagram&utm_term=22PETER" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="macbookImage"></span>
             <span class="link-text">
               16" Macbook Pro M1 Max
@@ -216,6 +223,7 @@ import divoom from "assets/img/setup/divoom.jpg";
 import caldigit from "assets/img/setup/caldigit.jpg";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 import xreart from "assets/img/setup/xreart.jpg";
+import ergochair from "assets/img/setup/ergochair.jpg";
 
 export default {
   // transition: {
@@ -253,6 +261,7 @@ export default {
       caldigitImage: { backgroundImage: `url(${caldigit})` },
       hustlerangeImage: { backgroundImage: `url(${hustlerange})` },
       xreartImage: { backgroundImage: `url(${xreart})` },
+      ergochairImage: { backgroundImage: `url(${ergochair})` },
     };
   }
 };
