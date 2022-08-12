@@ -312,3 +312,23 @@ h4{
   background-size:contain!important;
   background-position:center center;
 }
+
+.socials-wrapper{
+  list-style-type: none;
+  margin:0 auto;
+  padding: 0;
+  li{
+    display: inline-block;
+    margin-right: 0.5rem;
+    &:last-child{
+      margin-right: 0;
+    }
+    a{
+      width:30px;
+      height:30px;
+      background-repeat:no-repeat;
+      background-size:contain;
+      display: block;
+    }
+  }
+}

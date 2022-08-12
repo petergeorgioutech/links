@@ -13,6 +13,10 @@
           <div class="col-10 text-center py-2">
             <h1 class="username">Peter Georgiou</h1>
             <p class="description">Frontend Web Developer <span class="small-type">@peterpandev</span></p>
+            <ul class="socials-wrapper">
+              <li><a href="//instagram.com/peterpandev" :style="instagramImage"><span class="icon-instagram"></span></a></li>
+              <li><nuxt-link to="/youtube" :style="youtubeImage"><span class="icon-youtube"></span></nuxt-link></li>
+            </ul>
             <a href="mailto:hello@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Freelance Projects</span>
             </a>
@@ -66,6 +70,9 @@ import orbitkey from "assets/img/brands/orbitkey.svg";
 import partners from "assets/img/partners.svg";
 import ztm from "assets/img/ztm.jpg";
 import galaxy from "assets/img/galaxy.jpg";
+import instagram from "assets/img/instagram.png";
+import youtube from "assets/img/youtube.png";
+
 export default {
   layout: 'default',
   data() {
@@ -80,6 +87,8 @@ export default {
       couponImage: { backgroundImage: `url(${coupon})` },
       ztmImage: { backgroundImage: `url(${ztm})` },
       galaxyImage: { backgroundImage: `url(${galaxy})` },
+      instagramImage: { backgroundImage: `url(${instagram})` },
+      youtubeImage: { backgroundImage: `url(${youtube})` },
     };
   }
 };
