@@ -15,7 +15,7 @@
             <p class="description">Frontend Web Developer <span class="small-type">@peterpandev</span></p>
             <ul class="socials-wrapper">
               <li><a href="//instagram.com/peterpandev" target="blank" :style="instagramImage"><span class="icon-instagram"></span></a></li>
-              <li><a href="//petergeorgiou.tech/youtube" target="blank" :style="youtubeImage"><span class="icon-youtube"></span></a></li>
+              <li><a href="//links.petergeorgiou.tech/youtube" target="blank" :style="youtubeImage"><span class="icon-youtube"></span></a></li>
             </ul>
             <a href="mailto:hello@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Freelance Projects</span>
