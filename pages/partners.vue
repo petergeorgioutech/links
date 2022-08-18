@@ -16,6 +16,13 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           <div class="link">
+            <span class="link-image fill-image" :style="quadlockImage"></span>
+            <span class="link-text">
+              Quad Lock MAG&trade;
+            </span>
+            <a href="http://www.quadlockcase.net/mag" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="autonomousImage"></span>
             <span class="link-text">
               ErgoChair Pro
@@ -74,6 +81,7 @@ import feelzing from "assets/img/brands/feelzing.jpg";
 import autonomous from "assets/img/brands/autonomous.jpg";
 import mindesksetup from "assets/img/brands/mindesksetup.webp";
 import xreart from "assets/img/setup/xreart.jpg";
+import quadlock from "assets/img/brands/quadlock.jpg";
 
 export default {
   // transition: {
@@ -91,6 +99,7 @@ export default {
       autonomousImage: { backgroundImage: `url(${autonomous})` },
       mindesksetupImage: { backgroundImage: `url(${mindesksetup})` },
       xreartImage: { backgroundImage: `url(${xreart})` },
+      quadlockImage: { backgroundImage: `url(${quadlock})` },
     };
   }
 };

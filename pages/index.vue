@@ -23,6 +23,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
+          <a href="http://www.quadlockcase.net/mag" target="_blank" class="featured-item" :style="quadlockImage">
+            <span class="featured-title">Quad Lock MAG&trade;</span>
+          </a>
           <a href="https://bit.ly/3vkoiKA" target="_blank" class="featured-item" :style="galaxyImage">
             <span class="featured-title">Hack the galaxy</span>
           </a>
@@ -72,6 +75,7 @@ import ztm from "assets/img/ztm.jpg";
 import galaxy from "assets/img/galaxy.jpg";
 import instagram from "assets/img/instagram.png";
 import youtube from "assets/img/youtube.png";
+import quadlock from "assets/img/brands/quadlock.jpg";
 
 export default {
   layout: 'default',
@@ -89,6 +93,7 @@ export default {
       galaxyImage: { backgroundImage: `url(${galaxy})` },
       instagramImage: { backgroundImage: `url(${instagram})` },
       youtubeImage: { backgroundImage: `url(${youtube})` },
+      quadlockImage: { backgroundImage: `url(${quadlock})` },
     };
   }
 };
