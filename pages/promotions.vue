@@ -43,6 +43,15 @@
             <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
             <a href="https://nuphy.com/products/air60?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
+          <div class="link" data-code="PETERPANDEV10">
+            <span class="link-image fill-image" :style="quadlock"></span>
+            <span class="link-text">
+              Quad Lock MAG&trade;<br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="PETERPANDEV10"></button>
+            <a href="http://www.quadlockcase.net/mag" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
           <div class="link" data-code="peter20">
             <span class="link-image fill-image" :style="feelzingImage"></span>
             <span class="link-text">
@@ -98,6 +107,7 @@ import xreart from "assets/img/setup/xreart.jpg";
 import iswift from "assets/img/brands/iswift.jpg";
 import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 import ergochair from "assets/img/setup/ergochair.jpg";
+import quadlock from "assets/img/brands/quadlock.jpg";
 
 export default {
   layout: 'default',
@@ -130,6 +140,7 @@ export default {
       iswiftImage: { backgroundImage: `url(${iswift})` },
       nuphyImage2: { backgroundImage: `url(${nuphy2})` },
       ergochairImage: { backgroundImage: `url(${ergochair})` },
+      quadlockImage: { backgroundImage: `url(${quadlock})` },
     };
   }
 };
