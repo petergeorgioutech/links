@@ -44,7 +44,7 @@
             <a href="https://nuphy.com/products/air60?sca_ref=1358258.uq17yCXeKi" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
           <div class="link" data-code="PETERPANDEV10">
-            <span class="link-image fill-image" :style="quadlock"></span>
+            <span class="link-image fill-image" :style="quadlockImage"></span>
             <span class="link-text">
               Quad Lock MAG&trade;<br>
               <span class="link-description">Get 10% Off</span>
