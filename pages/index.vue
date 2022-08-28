@@ -26,12 +26,12 @@
           <a href="http://www.quadlockcase.net/mag" target="_blank" class="featured-item" :style="quadlockImage">
             <span class="featured-title">Quad Lock MAG&trade;</span>
           </a>
-          <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
-            <span class="featured-title">Zero To Mastery</span>
-          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
+          <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
+            <span class="featured-title">Zero To Mastery</span>
+          </a>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
