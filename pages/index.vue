@@ -12,9 +12,10 @@
         <div class="row justify-content-center mb-1">
           <div class="col-10 text-center py-2">
             <h1 class="username">Peter Georgiou</h1>
-            <p class="description">Frontend Web Developer <span class="small-type">@peterpandev</span></p>
+            <p class="description">Frontend Web Developer | Content Creator <span class="small-type">@peterpandev</span></p>
             <ul class="socials-wrapper">
               <li><a href="//instagram.com/peterpandev" target="blank" :style="instagramImage"><span class="icon-instagram"></span></a></li>
+              <li><a href="https://www.tiktok.com/@peterpandeveloper" target="blank" :style="tiktokImage"><span class="icon-tiktok"></span></a></li>
               <li><a href="//links.petergeorgiou.tech/youtube" target="blank" :style="youtubeImage"><span class="icon-youtube"></span></a></li>
             </ul>
             <a href="mailto:hello@petergeorgiou.tech" class="status accepting">
@@ -23,19 +24,22 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
-          <a href="http://www.quadlockcase.net/mag" target="_blank" class="featured-item" :style="quadlockImage">
-            <span class="featured-title">Quad Lock MAG&trade;</span>
-          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
+          <a href="https://bit.ly/3U95RU6" target="_blank" class="featured-item" :style="neonImage" style="background-position:center bottom;">
+            <span class="featured-title">Neon Beach</span>
+          </a>
+          <a href="http://www.quadlockcase.net/mag" target="_blank" class="featured-item" :style="quadlockImage">
+            <span class="featured-title">Quad Lock MAG&trade;</span>
+          </a>
           <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
             <span class="featured-title">Zero To Mastery</span>
           </a>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
-          <nuxt-link to="/get-in-touch" class="featured-item" :style="profile1Image">
+          <nuxt-link to="/get-in-touch" class="featured-item" :style="profileImage">
             <span class="featured-title">Get In Touch</span>
           </nuxt-link>
         </div>
@@ -71,7 +75,9 @@ import partners from "assets/img/partners.svg";
 import ztm from "assets/img/ztm.jpg";
 import instagram from "assets/img/instagram.png";
 import youtube from "assets/img/youtube.png";
+import tiktok from "assets/img/tiktok.png";
 import quadlock from "assets/img/brands/quadlock.jpg";
+import neon from "assets/img/brands/neonbeach.jpg";
 
 export default {
   layout: 'default',
@@ -87,8 +93,10 @@ export default {
       couponImage: { backgroundImage: `url(${coupon})` },
       ztmImage: { backgroundImage: `url(${ztm})` },
       instagramImage: { backgroundImage: `url(${instagram})` },
+      tiktokImage: { backgroundImage: `url(${tiktok})` },
       youtubeImage: { backgroundImage: `url(${youtube})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
+      neonImage: { backgroundImage: `url(${neon})` },
     };
   }
 };
