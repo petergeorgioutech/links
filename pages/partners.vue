@@ -41,7 +41,7 @@
             <span class="link-text">
               SmartDesk Pro
             </span>
-            <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://www.autonomous.ai/standing-desks/smartdesk-2-business?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=TikTok&utm_term=22PETER" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="mindesksetupImage"></span>

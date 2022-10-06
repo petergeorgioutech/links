@@ -32,7 +32,7 @@
               <span class="link-description">Get 4% Off</span>
             </span>
             <button class="copy-code" :style="copyImage" @click="copy" data-code="22PETER"></button>
-            <a href="https://rb.gy/keomlb" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+            <a href="https://www.autonomous.ai/standing-desks/smartdesk-2-business?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=TikTok&utm_term=22PETER" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
           <div class="link" data-code="peterpandev">
             <span class="link-image fill-image" :style="nuphyImage2"></span>
