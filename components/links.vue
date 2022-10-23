@@ -13,7 +13,7 @@
           <div class="col-10 text-center py-2">
             <h1 class="username">Peter Georgiou</h1>
             <p class="description">Frontend Web Developer <span class="small-type">@peterpandev</span></p>
-            <a href="mailto:hello@petergeorgiou.tech" class="status accepting">
+            <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Freelance Projects</span>
             </a>
           </div>

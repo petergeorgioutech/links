@@ -9,9 +9,9 @@
       </div>
     </header>
     <h1 class="title-underlined mb-4">General Enquiries</h1>
-    <p>Please feel free to email any questions you may have to <a href="mailto:hello@petergeorgiou.tech">hello@petergeorgiou.tech</a> and i'll get back to you as soon as I can.</p>
+    <p>Please feel free to email any questions you may have to <a href="mailto:peter@petergeorgiou.tech">peter@petergeorgiou.tech</a> and i'll get back to you as soon as I can.</p>
     <h1 class="title-underlined mb-4">For Collaborations</h1>
-    <p>I'm always on the lookout for new products in the market. Get in touch with me by emailing your request to <a href="mailto:partners@petergeorgiou.tech?subject=Collaboration Request">partners@petergeorgiou.tech</a> and we can kick off our collaboration in style.</p>
+    <p>I'm always on the lookout for new products in the market. Get in touch with me by emailing your request to <a href="mailto:hello@petergeorgiou.tech?subject=Collaboration Request">hello@petergeorgiou.tech</a> and we can kick off our collaboration in style.</p>
   </div>
 </template>
 
