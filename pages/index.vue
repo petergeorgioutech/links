@@ -18,7 +18,7 @@
               <li><a href="https://www.tiktok.com/@peterpandeveloper" target="blank" :style="tiktokImage"><span class="icon-tiktok"></span></a></li>
               <li><a href="//links.petergeorgiou.tech/youtube" target="blank" :style="youtubeImage"><span class="icon-youtube"></span></a></li>
             </ul>
-            <a href="mailto:hello@petergeorgiou.tech" class="status accepting">
+            <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Freelance Projects</span>
             </a>
           </div>
