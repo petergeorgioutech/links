@@ -24,9 +24,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
-          <!-- <a v-b-modal.modal-1 class="featured-item" :style="ebookImage">
+          <a v-b-modal.modal-1 class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book Release ✨</span>
-          </a> -->
+          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
