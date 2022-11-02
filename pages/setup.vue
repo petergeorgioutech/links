@@ -55,9 +55,9 @@
           <div class="link">
             <span class="link-image fill-image" :style="xreartImage"></span>
             <span class="link-text">
-              Xreart iPhone 5S Frame
+              iPhone 5S Frame
             </span>
-            <a href="https://xreart.com/?ref=0ck56cul3q" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://gridstudio.cc/products/grid®4s?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="smartdeskproImage"></span>
@@ -135,7 +135,7 @@
             <span class="link-text">
               GRID&reg; 4S
             </span>
-            <a href="https://gridstudio.cc/products/grid%C2%AE4s" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://gridstudio.cc/products/grid®4s?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="logitechImage"></span>

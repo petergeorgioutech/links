@@ -71,6 +71,15 @@
             <a href="https://hustlerange.com/discount/PETER20" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
           </div>
           <div class="link" data-code="peterpandev">
+            <span class="link-image fill-image" :style="gridImage"></span>
+            <span class="link-text">
+              Grid Studio <br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="peterpandev"></button>
+            <a href="https://gridstudio.cc/products/grid®4s?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
+          <div class="link" data-code="peterpandev">
             <span class="link-image fill-image" :style="xreartImage"></span>
             <span class="link-text">
               Xreart Frames <br>
@@ -108,6 +117,7 @@ import iswift from "assets/img/brands/iswift.jpg";
 import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 import ergochair from "assets/img/setup/ergochair.jpg";
 import quadlock from "assets/img/brands/quadlock.jpg";
+import grid from "assets/img/setup/grid4s.jpg";
 
 export default {
   layout: 'default',
@@ -141,6 +151,7 @@ export default {
       nuphyImage2: { backgroundImage: `url(${nuphy2})` },
       ergochairImage: { backgroundImage: `url(${ergochair})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
+      gridImage: { backgroundImage: `url(${grid})` },
     };
   }
 };
