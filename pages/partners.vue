@@ -16,6 +16,13 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           <div class="link">
+            <span class="link-image fill-image" :style="pitakaImage"></span>
+            <span class="link-text">
+              Pitaka
+            </span>
+            <a href="//www.ipitaka.com/products/magez-stand?ref=2hvd5dO3" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="quadlockImage"></span>
             <span class="link-text">
               Quad Lock MAG&trade;
@@ -90,6 +97,7 @@ import mindesksetup from "assets/img/brands/mindesksetup.webp";
 import xreart from "assets/img/setup/xreart.jpg";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/neonbeach.jpg";
+import pitaka from "assets/img/pitaka.png";
 
 export default {
   // transition: {
@@ -109,6 +117,7 @@ export default {
       xreartImage: { backgroundImage: `url(${xreart})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       neonImage: { backgroundImage: `url(${neon})` },
+      pitakaImage: { backgroundImage: `url(${pitaka})` },
     };
   }
 };
