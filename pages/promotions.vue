@@ -16,6 +16,15 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           
+          <div class="link" data-code="PETERS">
+            <span class="link-image fill-image" :style="sihooImage"></span>
+            <span class="link-text">
+              Sihoo V1 Ergonomic Chair <br>
+              <span class="link-description">Get 10% Off</span>
+            </span>
+            <button class="copy-code" :style="copyImage" @click="copy" data-code="PETERS"></button>
+            <a href="//sihoooffice.com/products/v1-ergonomic-office-chair?variant=42631750156504" target="_blank" class="btn btn-primary web-btn d-none">Shop Now</a>
+          </div>
           <div class="link" data-code="22PETER">
             <span class="link-image fill-image" :style="ergochairImage"></span>
             <span class="link-text">
@@ -118,6 +127,7 @@ import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 import ergochair from "assets/img/setup/ergochair.jpg";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import grid from "assets/img/setup/grid4s.jpg";
+import sihoo from "assets/img/brands/sihoo.png";
 
 export default {
   layout: 'default',
@@ -152,6 +162,7 @@ export default {
       ergochairImage: { backgroundImage: `url(${ergochair})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       gridImage: { backgroundImage: `url(${grid})` },
+      sihooImage: { backgroundImage: `url(${sihoo})` },
     };
   }
 };

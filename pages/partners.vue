@@ -16,6 +16,13 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           <div class="link">
+            <span class="link-image fill-image" :style="sihooImage"></span>
+            <span class="link-text">
+              Sihoo V1 Ergonomic Chair
+            </span>
+            <a href="//sihoooffice.com/products/v1-ergonomic-office-chair?variant=42631750156504" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="pitakaImage"></span>
             <span class="link-text">
               Pitaka
@@ -98,6 +105,7 @@ import xreart from "assets/img/setup/xreart.jpg";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/neonbeach.jpg";
 import pitaka from "assets/img/pitaka.png";
+import sihoo from "assets/img/brands/sihoo.png";
 
 export default {
   // transition: {
@@ -118,6 +126,7 @@ export default {
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       neonImage: { backgroundImage: `url(${neon})` },
       pitakaImage: { backgroundImage: `url(${pitaka})` },
+      sihooImage: { backgroundImage: `url(${sihoo})` },
     };
   }
 };
