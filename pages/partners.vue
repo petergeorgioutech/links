@@ -20,7 +20,7 @@
             <span class="link-text">
               Sihoo V1 Ergonomic Chair
             </span>
-            <a href="//sihoooffice.com/products/v1-ergonomic-office-chair?variant=42631750156504" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://shareasale.com/r.cfm?b=2066924&u=3441602&m=126922&urllink=&afftrack=" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="pitakaImage"></span>
