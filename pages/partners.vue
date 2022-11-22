@@ -16,6 +16,13 @@
       <div class="row content-wrapper">
         <div class="col-12 py-1 links">
           <div class="link">
+            <span class="link-image fill-image" :style="gridImage"></span>
+            <span class="link-text">
+              GRID Studio
+            </span>
+            <a href="https://gridstudio.cc/?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="sihooImage"></span>
             <span class="link-text">
               Sihoo V1 Ergonomic Chair
@@ -106,6 +113,7 @@ import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/neonbeach.jpg";
 import pitaka from "assets/img/pitaka.png";
 import sihoo from "assets/img/brands/sihoo.png";
+import grid from "assets/img/brands/grid.png";
 
 export default {
   // transition: {
@@ -127,6 +135,7 @@ export default {
       neonImage: { backgroundImage: `url(${neon})` },
       pitakaImage: { backgroundImage: `url(${pitaka})` },
       sihooImage: { backgroundImage: `url(${sihoo})` },
+      gridImage: { backgroundImage: `url(${grid})` },
     };
   }
 };
