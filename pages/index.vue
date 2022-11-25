@@ -24,6 +24,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
+          <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
+            <span class="featured-title">Cloudways</span>
+          </a>
           <a v-b-modal.modal-1 class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book Release ✨</span>
           </a>
@@ -120,6 +123,7 @@ import tiktok from "assets/img/tiktok.png";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/brands/neonbeach.jpg";
 import ebook from "assets/img/ebooksnapshot.png";
+import cloudways from "assets/img/brands/cloudways.jpg";
 
 export default {
   layout: 'default',
@@ -140,6 +144,7 @@ export default {
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       neonImage: { backgroundImage: `url(${neon})` },
       ebookImage: { backgroundImage: `url(${ebook})` },
+      cloudwaysImage: { backgroundImage: `url(${cloudways})` },
     };
   }
 };
