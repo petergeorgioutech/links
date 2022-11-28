@@ -24,15 +24,18 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
-          <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
+          <!-- <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
             <span class="featured-title">Cloudways</span>
-          </a>
+          </a> -->
           <a v-b-modal.modal-1 class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book Release ✨</span>
           </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
+          <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
+            <span class="featured-title">Zero To Mastery</span>
+          </a>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
