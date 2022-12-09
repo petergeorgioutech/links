@@ -27,8 +27,8 @@
           <!-- <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
             <span class="featured-title">Cloudways</span>
           </a> -->
-          <a v-b-modal.modal-1 class="featured-item" :style="ebookImage">
-            <span class="featured-title">E-Book Release ✨</span>
+          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code" target="_blank" class="featured-item" :style="ebookImage">
+            <span class="featured-title">E-Book OUT NOW ✨</span>
           </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
