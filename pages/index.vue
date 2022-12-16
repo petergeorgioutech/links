@@ -30,6 +30,9 @@
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code" target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book OUT NOW ✨</span>
           </a>
+          <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
+            <span class="featured-title">Nanlite FS-60B ✨</span>
+          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
@@ -127,6 +130,7 @@ import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/brands/neonbeach.jpg";
 import ebook from "assets/img/ebooksnapshot.png";
 import cloudways from "assets/img/brands/cloudways.jpg";
+import nanlite from "assets/img/brands/nanlite.png";
 
 export default {
   layout: 'default',
@@ -148,6 +152,7 @@ export default {
       neonImage: { backgroundImage: `url(${neon})` },
       ebookImage: { backgroundImage: `url(${ebook})` },
       cloudwaysImage: { backgroundImage: `url(${cloudways})` },
+      nanliteImage: { backgroundImage: `url(${nanlite})` },
     };
   }
 };
