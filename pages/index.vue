@@ -30,9 +30,9 @@
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/" target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book OUT NOW ✨</span>
           </a>
-          <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
+          <!-- <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
             <span class="featured-title">Nanlite FS-60B ✨</span>
-          </a>
+          </a> -->
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
