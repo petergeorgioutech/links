@@ -27,7 +27,7 @@
           <!-- <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
             <span class="featured-title">Cloudways</span>
           </a> -->
-          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/IGchristmas2022" target="_blank" class="featured-item" :style="ebookImage">
+          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/" target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">E-Book OUT NOW ✨</span>
           </a>
           <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
