@@ -110,10 +110,10 @@ import autonomous from "assets/img/brands/autonomous.jpg";
 import mindesksetup from "assets/img/brands/mindesksetup.webp";
 import xreart from "assets/img/setup/xreart.jpg";
 import quadlock from "assets/img/brands/quadlock.jpg";
-import neon from "assets/img/neonbeach.jpg";
+import neon from "assets/img/setup23/neonbeach.png";
 import pitaka from "assets/img/pitaka.png";
-import sihoo from "assets/img/brands/sihoo.png";
-import grid from "assets/img/brands/grid.png";
+import sihoo from "assets/img/setup23/sihoo.png";
+import grid from "assets/img/setup23/gridstudio.png";
 
 export default {
   // transition: {

@@ -17,10 +17,16 @@
               <li><a href="//instagram.com/peterpandev" target="blank" :style="instagramImage"><span class="icon-instagram"></span></a></li>
               <li><a href="https://www.tiktok.com/@peterpandeveloper" target="blank" :style="tiktokImage"><span class="icon-tiktok"></span></a></li>
               <li><a href="//links.petergeorgiou.tech/youtube" target="blank" :style="youtubeImage"><span class="icon-youtube"></span></a></li>
+              <li><a href="//www.amazon.com/shop/peterpandev/list/1YNZ82Q9EWNWS?ref_=aip_sf_list_spv_ofs_mixed_d" target="blank" :style="amazonImage"><span class="icon-amazon"></span></a></li>
             </ul>
-            <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
+            <!-- <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Freelance Projects</span>
-            </a>
+            </a> -->
+          </div>
+          <div class="col-12 text-center mt-2 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CzYe6oh96mw" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div class="row mb-3 featured-items">
@@ -28,7 +34,7 @@
             <span class="featured-title">Cloudways</span>
           </a> -->
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA." target="_blank" class="featured-item" :style="ebookImage">
-            <span class="featured-title">E-Book OUT NOW ✨</span>
+            <span class="featured-title">Get my E-book ✨</span>
           </a>
           <!-- <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
             <span class="featured-title">Nanlite FS-60B ✨</span>
@@ -36,9 +42,9 @@
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
-          <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
+          <!-- <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
             <span class="featured-title">Zero To Mastery</span>
-          </a>
+          </a> -->
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
@@ -126,6 +132,7 @@ import ztm from "assets/img/ztm.jpg";
 import instagram from "assets/img/instagram.png";
 import youtube from "assets/img/youtube.png";
 import tiktok from "assets/img/tiktok.png";
+import amazon from "assets/img/icons/amazon.png";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/brands/neonbeach.jpg";
 import ebook from "assets/img/ebooksnapshot.png";
@@ -148,6 +155,7 @@ export default {
       instagramImage: { backgroundImage: `url(${instagram})` },
       tiktokImage: { backgroundImage: `url(${tiktok})` },
       youtubeImage: { backgroundImage: `url(${youtube})` },
+      amazonImage: { backgroundImage: `url(${amazon})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       neonImage: { backgroundImage: `url(${neon})` },
       ebookImage: { backgroundImage: `url(${ebook})` },

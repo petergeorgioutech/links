@@ -119,15 +119,15 @@ import profile from "assets/img/profile.jpg";
 import back from "assets/img/icons/back.svg";
 import copy from "assets/img/icons/copy.svg";
 import feelzing from "assets/img/brands/feelzing.jpg";
-import smartdeskpro from "assets/img/brands/smartdeskpro.jpg";
+import smartdeskpro from "assets/img/setup23/standingdesk.png";
 import hustlerange from "assets/img/setup/hustlerange.jpg";
 import xreart from "assets/img/setup/xreart.jpg";
 import iswift from "assets/img/brands/iswift.jpg";
 import nuphy2 from "assets/img/setup/nuphy-air60.jpg";
 import ergochair from "assets/img/setup/ergochair.jpg";
-import quadlock from "assets/img/brands/quadlock.jpg";
-import grid from "assets/img/setup/grid4s.jpg";
-import sihoo from "assets/img/brands/sihoo.png";
+import quadlock from "assets/img/setup23/quadlock.png";
+import grid from "assets/img/setup23/gridstudio.png";
+import sihoo from "assets/img/setup23/sihoo.png";
 
 export default {
   layout: 'default',
