@@ -12,8 +12,8 @@ export default {
         hid: 'onload',
         innerHTML: `
           window.onload = function() {
-        var fallback = "https://www.youtube.com/watch?v=CzYe6oh96mw",
-        app = "vnd.youtube://watch?v=CzYe6oh96mw";
+        var fallback = "https://youtube.com/channel/UCh_3XIVQLMvM50Z0xQltlwQ",
+        app = "vnd.youtube://channel/UCh_3XIVQLMvM50Z0xQltlwQ";
 
         if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
             window.location = app;
