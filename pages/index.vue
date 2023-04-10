@@ -30,9 +30,9 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
-          <!-- <a href="https://www.cloudways.com/en/?id=1264322" target="_blank" class="featured-item" :style="cloudwaysImage">
-            <span class="featured-title">Cloudways</span>
-          </a> -->
+          <a href="https://www.insta360.com/sal/link?insrc=INRWVK2" target="_blank" class="featured-item" :style="linkImage">
+            <span class="featured-title">Insta360 Link</span>
+          </a>
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA." target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">Get my E-book ✨</span>
           </a>
@@ -138,6 +138,7 @@ import neon from "assets/img/brands/neonbeach.jpg";
 import ebook from "assets/img/ebooksnapshot.png";
 import cloudways from "assets/img/brands/cloudways.jpg";
 import nanlite from "assets/img/brands/nanlite.png";
+import link from "assets/img/brands/link.jpg";
 
 export default {
   layout: 'default',
@@ -161,6 +162,7 @@ export default {
       ebookImage: { backgroundImage: `url(${ebook})` },
       cloudwaysImage: { backgroundImage: `url(${cloudways})` },
       nanliteImage: { backgroundImage: `url(${nanlite})` },
+      linkImage: { backgroundImage: `url(${link})` },
     };
   }
 };
