@@ -30,21 +30,12 @@
           </div>
         </div>
         <div class="row mb-3 featured-items">
-          <a href="https://www.insta360.com/sal/link?insrc=INRWVK2" target="_blank" class="featured-item" :style="linkImage">
-            <span class="featured-title">Insta360 Link</span>
-          </a>
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA." target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">Get my E-book ✨</span>
           </a>
-          <!-- <a href="https://nanliteus.com/nanlite-fs-60b-bi-color-ac-led-monolight/" target="_blank" class="featured-item" :style="nanliteImage">
-            <span class="featured-title">Nanlite FS-60B ✨</span>
-          </a> -->
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
-          <!-- <a href="https://academy.zerotomastery.io/p/complete-web-developer-zero-to-mastery?affcode=441520_wmgpaqt4" target="_blank" class="featured-item" :style="ztmImage">
-            <span class="featured-title">Zero To Mastery</span>
-          </a> -->
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank" class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
