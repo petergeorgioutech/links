@@ -34,28 +34,28 @@
           <div class="link">
             <span class="link-image fill-image" :style="standingdeskImage"></span>
             <span class="link-text">
-              Standing Desk by Dokk Store <br> <small><em>Solid wood, live edge - 180cm x 90cm</em></small>
+              Standing Desk <br> <small><em>by Dokk Store - 180cm x 90cm</em></small>
             </span>
             <a href="https://dokk.store/?ref=h6ow9bjv" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="riserImage"></span>
             <span class="link-text">
-              Laptop Riser by Dokk Store
+              Laptop Riser <br> <small><em>by Dokk Store</em></small>
             </span>
             <a href="https://dokk.store/?ref=h6ow9bjv" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="shelfImage"></span>
             <span class="link-text">
-              Desk Shelf by Dokk Store
+              Desk Shelf <br> <small><em>by Dokk Store</em></small>
             </span>
             <a href="https://dokk.store/?ref=h6ow9bjv" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="keyboardImage"></span>
             <span class="link-text">
-              MX Mechanical Mini (Grey) <br> <small><em>Keyboard by Logitech</em></small>
+              MX Mechanical Mini <br> <small><em>Keyboard by Logitech</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B09LK73VHG?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09LK73VHG&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ofs_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
@@ -83,14 +83,14 @@
           <div class="link">
             <span class="link-image fill-image" :style="ultrawideImage"></span>
             <span class="link-text">
-              49" Ultrawide Monitor by LG <br> <small><em>LG 49WL95C-WY (5120 x 1440)</em></small>
+              49" Ultrawide Monitor <br> <small><em>By LG - 49WL95C-WY</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B09QD21693?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09QD21693&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="uperfectImage"></span>
             <span class="link-text">
-              Portable Monitor (UPerfect 0)<br> <small><em>by UPERFECTMONITOR</em></small>
+              Portable Monitor<br> <small><em>UPERFECT 0</em></small>
             </span>
             <a href="https://www.uperfectmonitor.com/products/oled-portable-monitor-4k-uperfect-o" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
@@ -111,7 +111,7 @@
           <div class="link">
             <span class="link-image fill-image" :style="loupedeckImage"></span>
             <span class="link-text">
-              Console by Loupedeck <br> <small><em>Loupedeck Live</em></small>
+              Console<br> <small><em>Loupedeck Live</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B08F7RJYZV?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B08F7RJYZV&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
@@ -125,28 +125,28 @@
           <div class="link">
             <span class="link-image fill-image" :style="pegboardImage"></span>
             <span class="link-text">
-              Pegboards from IKEA <br> <small><em>SKADIS</em></small>
+              Pegboards <br> <small><em>IKEA SKADIS</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B07NQ1M73V?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B07NQ1M73V&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="quadlockImage"></span>
             <span class="link-text">
-              Quadlock MAG Charger
+              MAG Charger <br> <small><em>By Quadlock</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B0BHV1LD44?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B0BHV1LD44&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="caldigitImage"></span>
             <span class="link-text">
-              Caldigit TS4 Plus
+              TS4 Plus Hub <br> <small><em>By Caldigit</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B09GK8LBWS?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09GK8LBWS&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ofs_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="sonyImage"></span>
             <span class="link-text">
-              Sony WH-1000XM4
+              Headphones <br> <small><em>By Sony | WH-1000XM4</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B0863TXGM3?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B0863TXGM3&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
@@ -161,14 +161,14 @@
           <div class="link">
             <span class="link-image fill-image" :style="fifineImage"></span>
             <span class="link-text">
-              Microphone K658 by Fifine
+              Microphone K658 <br> <small><em>by Fifine</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B09BNMJM2C?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09BNMJM2C&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="ergotronImage"></span>
             <span class="link-text">
-              Ergotron HX Monitor Arm
+              HX Monitor Arm <br> <small><em>By Ergotron</em></small>
             </span>
             <a href="https://www.amazon.com/dp/B0959D7XDM?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B0959D7XDM&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ofs_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
