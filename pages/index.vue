@@ -28,6 +28,8 @@
                     class="icon-youtube"></span></a></li>
               <li><a href="//www.amazon.com/shop/peterpandev/list/1YNZ82Q9EWNWS?ref_=aip_sf_list_spv_ofs_mixed_d"
                   target="blank" :style="amazonImage"><span class="icon-amazon"></span></a></li>
+              <li><a href="mailto:hello@petergeorgiou.tech"
+                  target="blank" :style="emailImage"><span class="icon-email"></span></a></li>
             </ul>
             <!-- <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Brand Collaborations</span>
@@ -39,8 +41,25 @@
             </div>
           </div> -->
         </div>
+
+        <hr class="w-50 border border-grey mt-2 mb-2" style="opacity:0.75">
         
-        <hr class="w-50 border border-grey mt-2 mb-4">
+        <div class="row">
+          <div class="col-12">
+            <div class="featured-item-static">
+              <a href="https://www.ipitaka.com/products/magez-folio-2-for-ipad-pro?ref=2hvd5dO3"
+                target="_blank">
+                <span class="image" :style="pitakaFeature"></span>
+                <span class="content">
+                  <span class="featured-title">Pitaka MagEZ Folio 2</span>
+                  <span class="featured-button btn btn-primary btn-sm">Shop now</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
         <div class="row mb-3 featured-items">
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
@@ -57,8 +76,8 @@
             <span class="featured-title">Get In Touch</span>
           </nuxt-link>
         </div>
-        
-        
+
+
         <div class="row content-wrapper">
           <div class="col-10 offset-1 links">
             <nuxt-link to="/promotions" class="link">
@@ -153,6 +172,7 @@ import instagram from "assets/img/instagram.png";
 import youtube from "assets/img/youtube.png";
 import tiktok from "assets/img/tiktok.png";
 import amazon from "assets/img/icons/amazon.png";
+import email from "assets/img/email.png";
 import quadlock from "assets/img/brands/quadlock.jpg";
 import neon from "assets/img/brands/neonbeach.jpg";
 import ebook from "assets/img/ebooksnapshot.png";
@@ -160,6 +180,7 @@ import cloudways from "assets/img/brands/cloudways.jpg";
 import nanlite from "assets/img/brands/nanlite.png";
 import link from "assets/img/brands/link.jpg";
 import standingdesk from "assets/img/setup23/standingdesk.jpg";
+import pitakafeature from "assets/img/features/pitaka.jpg";
 
 export default {
   layout: 'default',
@@ -178,6 +199,7 @@ export default {
       tiktokImage: { backgroundImage: `url(${tiktok})` },
       youtubeImage: { backgroundImage: `url(${youtube})` },
       amazonImage: { backgroundImage: `url(${amazon})` },
+      emailImage: { backgroundImage: `url(${email})` },
       quadlockImage: { backgroundImage: `url(${quadlock})` },
       neonImage: { backgroundImage: `url(${neon})` },
       ebookImage: { backgroundImage: `url(${ebook})` },
@@ -185,6 +207,7 @@ export default {
       nanliteImage: { backgroundImage: `url(${nanlite})` },
       linkImage: { backgroundImage: `url(${link})` },
       standingdeskImage: { backgroundImage: `url(${standingdesk})` },
+      pitakaFeature: { backgroundImage: `url(${pitakafeature})` },
     };
   }
 };
