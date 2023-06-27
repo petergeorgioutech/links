@@ -22,14 +22,14 @@
             <span class="link-text">
               Desk Pad <br> <small><em>by Deltahub</em></small>
             </span>
-            <a href="https://deltahub.io/collections/all-products?ref=peter" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://go.deltahub.io/443wpdS" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="deltahubImage"></span>
             <span class="link-text">
               Wrist Rests Carpio 2.0 <br> <small><em>by Deltahub</em></small>
             </span>
-            <a href="https://deltahub.io/collections/all-products?ref=peter" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+            <a href="https://go.deltahub.io/443wpdS" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
             <span class="link-image fill-image" :style="standingdeskImage"></span>
