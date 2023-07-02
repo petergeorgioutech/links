@@ -47,11 +47,11 @@
         <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
-              <a href="https://www.ipitaka.com/products/magez-folio-2-for-ipad-pro?ref=2hvd5dO3"
+              <a href="https://go.deltahub.io/443wpdS"
                 target="_blank">
-                <span class="image" :style="pitakaFeature"></span>
+                <span class="image" :style="deltahubFeature"></span>
                 <span class="content">
-                  <span class="featured-title">Pitaka MagEZ Folio 2</span>
+                  <span class="featured-title">Carpio 2.0 by Deltahub</span>
                   <span class="featured-button btn btn-primary btn-sm">Shop now</span>
                 </span>
                 <span class="star"></span>
@@ -181,6 +181,7 @@ import nanlite from "assets/img/brands/nanlite.png";
 import link from "assets/img/brands/link.jpg";
 import standingdesk from "assets/img/setup23/standingdesk.jpg";
 import pitakafeature from "assets/img/features/pitaka.jpg";
+import deltahubfeature from "assets/img/setup23/deltahub.jpg";
 
 export default {
   layout: 'default',
@@ -208,6 +209,7 @@ export default {
       linkImage: { backgroundImage: `url(${link})` },
       standingdeskImage: { backgroundImage: `url(${standingdesk})` },
       pitakaFeature: { backgroundImage: `url(${pitakafeature})` },
+      deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
     };
   }
 };
