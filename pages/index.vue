@@ -51,7 +51,7 @@
                 target="_blank">
                 <span class="image" :style="omniFeature"></span>
                 <span class="content">
-                  <span class="featured-title">Omnicharge 20C+</span>
+                  <span class="featured-title">Omni 20C+</span>
                   <span class="featured-button btn btn-primary btn-sm">Shop now</span>
                 </span>
                 <span class="star"></span>
