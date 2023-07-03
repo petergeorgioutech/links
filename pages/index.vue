@@ -47,11 +47,11 @@
         <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
-              <a href="https://go.deltahub.io/443wpdS"
+              <a href="https://www.omnicharge.co/pages/shop?sca_ref=3407976.dM2IxUAsxW"
                 target="_blank">
-                <span class="image" :style="deltahubFeature"></span>
+                <span class="image" :style="omniFeature"></span>
                 <span class="content">
-                  <span class="featured-title">Carpio 2.0 by Deltahub</span>
+                  <span class="featured-title">Omnicharge 20C+</span>
                   <span class="featured-button btn btn-primary btn-sm">Shop now</span>
                 </span>
                 <span class="star"></span>
@@ -182,6 +182,7 @@ import link from "assets/img/brands/link.jpg";
 import standingdesk from "assets/img/setup23/standingdesk.jpg";
 import pitakafeature from "assets/img/features/pitaka.jpg";
 import deltahubfeature from "assets/img/setup23/deltahub.jpg";
+import omnifeature from "assets/img/features/omnicharge.jpg";
 
 export default {
   layout: 'default',
@@ -210,6 +211,7 @@ export default {
       standingdeskImage: { backgroundImage: `url(${standingdesk})` },
       pitakaFeature: { backgroundImage: `url(${pitakafeature})` },
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
+      omniFeature: { backgroundImage: `url(${omnifeature})` },
     };
   }
 };
