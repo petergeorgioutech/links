@@ -47,6 +47,22 @@
         <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
+              <a href="https://sihoooffice.com/Doro-C300-Peter"
+                target="_blank">
+                <span class="image" :style="doroFeature"></span>
+                <span class="content">
+                  <span class="featured-title">Sihoo Doro-C300</span>
+                  <span class="featured-button btn btn-primary btn-sm">Shop now</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="row">
+          <div class="col-12">
+            <div class="featured-item-static">
               <a href="https://www.omnicharge.co/pages/shop?sca_ref=3407976.dM2IxUAsxW"
                 target="_blank">
                 <span class="image" :style="omniFeature"></span>
@@ -58,7 +74,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         
         <div class="row mb-3 featured-items">
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
@@ -183,6 +199,7 @@ import standingdesk from "assets/img/setup23/standingdesk.jpg";
 import pitakafeature from "assets/img/features/pitaka.jpg";
 import deltahubfeature from "assets/img/setup23/deltahub.jpg";
 import omnifeature from "assets/img/features/omnicharge.jpg";
+import dorofeature from "assets/img/setup23/doro.jpg";
 
 export default {
   layout: 'default',
@@ -212,6 +229,7 @@ export default {
       pitakaFeature: { backgroundImage: `url(${pitakafeature})` },
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
       omniFeature: { backgroundImage: `url(${omnifeature})` },
+      doroFeature: { backgroundImage: `url(${dorofeature})` },
     };
   }
 };

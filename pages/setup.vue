@@ -67,6 +67,13 @@
             <a href="https://www.amazon.com/dp/B0982RGW5Z?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B0982RGW5Z&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
           </div>
           <div class="link">
+            <span class="link-image fill-image" :style="doroImage"></span>
+            <span class="link-text">
+              Ergonomic Chair<br> <small><em>Doro by Sihoo</em></small>
+            </span>
+            <a href="https://sihoooffice.com/Doro-C300-Peter" target="_blank" class="btn btn-primary web-btn">Shop Now</a>
+          </div>
+          <div class="link">
             <span class="link-image fill-image" :style="nanoleafImage"></span>
             <span class="link-text">
               Wall lights by Nanoleaf <br> <small><em>Lines + Matte Black covers</em></small>
@@ -225,6 +232,7 @@ import shelf from "assets/img/setup23/shelf.jpg";
 import keyboard from "assets/img/setup23/keyboard.jpg";
 import webcam from "assets/img/setup23/webcam.jpg";
 import rode from "assets/img/setup23/rodeboom.jpg";
+import doro from "assets/img/setup23/doro.jpg";
 
 export default {
   // transition: {
@@ -262,6 +270,7 @@ export default {
       keyboardImage: { backgroundImage: `url(${keyboard})` },
       webcamImage: { backgroundImage: `url(${webcam})` },
       rodeImage: { backgroundImage: `url(${rode})` },
+      doroImage: { backgroundImage: `url(${doro})` },
     };
   }
 };
