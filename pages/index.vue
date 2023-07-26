@@ -47,11 +47,11 @@
         <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
-              <a href="https://sihoooffice.com/Doro-C300-Peter"
+              <a href="https://www.insta360.com/sal/flow?insrc=INRWVK2"
                 target="_blank">
-                <span class="image" :style="doroFeature"></span>
+                <span class="image" :style="flowFeature"></span>
                 <span class="content">
-                  <span class="featured-title">Sihoo Doro-C300</span>
+                  <span class="featured-title">Insta360 Flow</span>
                   <span class="featured-button btn btn-primary btn-sm">Shop now</span>
                 </span>
                 <span class="star"></span>
@@ -200,6 +200,7 @@ import pitakafeature from "assets/img/features/pitaka.jpg";
 import deltahubfeature from "assets/img/setup23/deltahub.jpg";
 import omnifeature from "assets/img/features/omnicharge.jpg";
 import dorofeature from "assets/img/setup23/doro.jpg";
+import flowfeature from "assets/img/features/flow.jpg";
 
 export default {
   layout: 'default',
@@ -230,6 +231,7 @@ export default {
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
       omniFeature: { backgroundImage: `url(${omnifeature})` },
       doroFeature: { backgroundImage: `url(${dorofeature})` },
+      flowFeature: { backgroundImage: `url(${flowfeature})` },
     };
   }
 };
