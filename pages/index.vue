@@ -47,6 +47,22 @@
         <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
+              <a href="https://www.autonomous.ai/standing-desks/smartdesk-2-business?utm_source=pr&utm_medium=influencer&utm_campaign=growth&utm_content=Instagram&utm_term=22PETER"
+                target="_blank">
+                <span class="image" :style="smartdeskproFeature"></span>
+                <span class="content">
+                  <span class="featured-title">SmartDesk Pro</span>
+                  <span class="featured-button btn btn-primary btn-sm">Shop now</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- <div class="row">
+          <div class="col-12">
+            <div class="featured-item-static">
               <a href="https://www.insta360.com/sal/flow?insrc=INRWVK2"
                 target="_blank">
                 <span class="image" :style="flowFeature"></span>
@@ -58,7 +74,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         
         <!-- <div class="row">
           <div class="col-12">
@@ -201,6 +217,7 @@ import deltahubfeature from "assets/img/setup23/deltahub.jpg";
 import omnifeature from "assets/img/features/omnicharge.jpg";
 import dorofeature from "assets/img/setup23/doro.jpg";
 import flowfeature from "assets/img/features/flow.jpg";
+import smartdeskprofeature from "assets/img/smartdeskpro.jpg";
 
 export default {
   layout: 'default',
@@ -232,6 +249,7 @@ export default {
       omniFeature: { backgroundImage: `url(${omnifeature})` },
       doroFeature: { backgroundImage: `url(${dorofeature})` },
       flowFeature: { backgroundImage: `url(${flowfeature})` },
+      smartdeskproFeature: { backgroundImage: `url(${smartdeskprofeature})` },
     };
   }
 };
