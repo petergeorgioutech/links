@@ -112,6 +112,9 @@
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
+          <nuxt-link to="/get-in-touch" class="featured-item" :style="profileImage">
+            <span class="featured-title">Get In Touch</span>
+          </nuxt-link>
           <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA."
             target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">Get my E-book ✨</span>
@@ -120,9 +123,6 @@
             class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
           </a>
-          <nuxt-link to="/get-in-touch" class="featured-item" :style="profileImage">
-            <span class="featured-title">Get In Touch</span>
-          </nuxt-link>
         </div>
 
 
