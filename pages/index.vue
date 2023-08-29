@@ -40,11 +40,16 @@
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CzYe6oh96mw" allowfullscreen></iframe>
             </div>
           </div> -->
+          <div class="col-12 text-center mt-2 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/76lHoB7H9ww" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
 
-        <hr class="w-50 border border-grey mt-2 mb-2" style="opacity:0.75">
+        <!-- <hr class="w-50 border border-grey mt-2 mb-2" style="opacity:0.75"> -->
         
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
               <a href="https://pieces.app/"
@@ -58,7 +63,7 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         
         <!-- <div class="row">
           <div class="col-12">
