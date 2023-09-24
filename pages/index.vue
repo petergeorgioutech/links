@@ -28,8 +28,8 @@
                     class="icon-youtube"></span></a></li>
               <li><a href="//www.amazon.com/shop/peterpandev/list/1YNZ82Q9EWNWS?ref_=aip_sf_list_spv_ofs_mixed_d"
                   target="blank" :style="amazonImage"><span class="icon-amazon"></span></a></li>
-              <li><a href="mailto:hello@petergeorgiou.tech"
-                  target="blank" :style="emailImage"><span class="icon-email"></span></a></li>
+              <li><a href="mailto:hello@petergeorgiou.tech" target="blank" :style="emailImage"><span
+                    class="icon-email"></span></a></li>
             </ul>
             <!-- <a href="mailto:peter@petergeorgiou.tech" class="status accepting">
               Accepting <span class="project_type">Brand Collaborations</span>
@@ -40,15 +40,31 @@
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CzYe6oh96mw" allowfullscreen></iframe>
             </div>
           </div> -->
+
+          <div class="col-12">
+            <div class="featured-item-static">
+              <a href="https://ascrono.com/?ref=PETERPANDEV" target="_blank">
+                <span class="image" :style="ascronoFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>Ascrono</b> <br> Macbook Docking Station</span>
+                  <span class="featured-button btn btn-primary btn-sm">Shop Now</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
           <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/76lHoB7H9ww" allowfullscreen></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/76lHoB7H9ww"
+                allowfullscreen></iframe>
             </div>
           </div>
         </div>
 
         <!-- <hr class="w-50 border border-grey mt-2 mb-2" style="opacity:0.75"> -->
-        
+
+
+
         <!-- <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
@@ -64,7 +80,7 @@
             </div>
           </div>
         </div> -->
-        
+
         <!-- <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
@@ -80,7 +96,7 @@
             </div>
           </div>
         </div> -->
-        
+
         <!-- <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
@@ -96,7 +112,7 @@
             </div>
           </div>
         </div> -->
-        
+
         <!-- <div class="row">
           <div class="col-12">
             <div class="featured-item-static">
@@ -112,7 +128,7 @@
             </div>
           </div>
         </div> -->
-        
+
         <div class="row mb-3 featured-items">
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
@@ -239,6 +255,7 @@ import dorofeature from "assets/img/setup23/doro.jpg";
 import flowfeature from "assets/img/features/flow.jpg";
 import smartdeskprofeature from "assets/img/smartdeskpro.jpg";
 import piecesfeature from "assets/img/features/pieces.jpg";
+import ascronofeature from "assets/img/features/ascrono.jpg";
 
 export default {
   layout: 'default',
@@ -272,6 +289,7 @@ export default {
       flowFeature: { backgroundImage: `url(${flowfeature})` },
       smartdeskproFeature: { backgroundImage: `url(${smartdeskprofeature})` },
       piecesFeature: { backgroundImage: `url(${piecesfeature})` },
+      ascronoFeature: { backgroundImage: `url(${ascronofeature})` },
     };
   }
 };
