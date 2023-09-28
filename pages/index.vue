@@ -41,7 +41,7 @@
             </div>
           </div> -->
 
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static">
               <a href="https://ascrono.com/?ref=PETERPANDEV" target="_blank">
                 <span class="image" :style="ascronoFeature"></span>
@@ -52,13 +52,21 @@
                 <span class="star"></span>
               </a>
             </div>
-          </div>
-          <div class="col-12 text-center mt-2 mb-4">
+          </div> -->
+
+          <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/76lHoB7H9ww"
                 allowfullscreen></iframe>
             </div>
+          </div> -->
+          <div class="col-12 text-center mt-2 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yPUX2z16uDM"
+                allowfullscreen></iframe>
+            </div>
           </div>
+
         </div>
 
         <!-- <hr class="w-50 border border-grey mt-2 mb-2" style="opacity:0.75"> -->
