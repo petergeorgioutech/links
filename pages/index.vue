@@ -41,18 +41,18 @@
             </div>
           </div> -->
 
-          <!-- <div class="col-12">
+          <div class="col-12">
             <div class="featured-item-static">
-              <a href="https://ascrono.com/?ref=PETERPANDEV" target="_blank">
-                <span class="image" :style="ascronoFeature"></span>
+              <a href="http://go.deltahub.io/443wpdS" target="_blank">
+                <span class="image" :style="deltahubFeature"></span>
                 <span class="content">
-                  <span class="featured-title"><b>Ascrono</b> <br> Macbook Docking Station</span>
+                  <span class="featured-title"><b>Deltahub</b> <br> REO COLLECTION</span>
                   <span class="featured-button btn btn-primary btn-sm">Shop Now</span>
                 </span>
                 <span class="star"></span>
               </a>
             </div>
-          </div> -->
+          </div>
 
           <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
@@ -257,13 +257,14 @@ import nanlite from "assets/img/brands/nanlite.png";
 import link from "assets/img/brands/link.jpg";
 import standingdesk from "assets/img/setup23/standingdesk.jpg";
 import pitakafeature from "assets/img/features/pitaka.jpg";
-import deltahubfeature from "assets/img/setup23/deltahub.jpg";
+// import deltahubfeature from "assets/img/setup23/deltahub.jpg";
 import omnifeature from "assets/img/features/omnicharge.jpg";
 import dorofeature from "assets/img/setup23/doro.jpg";
 import flowfeature from "assets/img/features/flow.jpg";
 import smartdeskprofeature from "assets/img/smartdeskpro.jpg";
 import piecesfeature from "assets/img/features/pieces.jpg";
 import ascronofeature from "assets/img/features/ascrono.jpg";
+import deltahubfeature from "assets/img/deltahubreo.png";
 
 export default {
   layout: 'default',
@@ -298,6 +299,7 @@ export default {
       smartdeskproFeature: { backgroundImage: `url(${smartdeskprofeature})` },
       piecesFeature: { backgroundImage: `url(${piecesfeature})` },
       ascronoFeature: { backgroundImage: `url(${ascronofeature})` },
+      deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
     };
   }
 };
