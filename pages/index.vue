@@ -42,7 +42,22 @@
           </div> -->
 
           <div class="col-12">
-            <div class="featured-item-static">
+            <div class="featured-item-static widen">
+              <a href="https://www.insta360.com/sal/go-3?insrc=INRWVK2" target="_blank">
+                <span class="image" :style="go3Feature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>Insta360 GO 3</b> <br> <b>BLACK FRIDAY</b><br> <small>Free t-shirt,
+                      carry case and 5% off to the first 20 orders</small></span>
+                  <span class="featured-button btn btn-primary btn-sm">GET OFFER</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+
+
+
+          <!-- <div class="featured-item-static">
               <a href="http://go.deltahub.io/443wpdS" target="_blank">
                 <span class="image" :style="deltahubFeature"></span>
                 <span class="content">
@@ -51,8 +66,8 @@
                 </span>
                 <span class="star"></span>
               </a>
-            </div>
-          </div>
+            </div> -->
+
 
           <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
@@ -265,6 +280,7 @@ import smartdeskprofeature from "assets/img/smartdeskpro.jpg";
 import piecesfeature from "assets/img/features/pieces.jpg";
 import ascronofeature from "assets/img/features/ascrono.jpg";
 import deltahubfeature from "assets/img/deltahubreo.png";
+import go3feature from "assets/img/features/go3.png";
 
 export default {
   layout: 'default',
@@ -300,7 +316,19 @@ export default {
       piecesFeature: { backgroundImage: `url(${piecesfeature})` },
       ascronoFeature: { backgroundImage: `url(${ascronofeature})` },
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
+      go3Feature: { backgroundImage: `url(${go3feature})` },
     };
   }
 };
 </script>
+
+<style>
+.featured-item-static.widen a .image {
+  width: 290px;
+  height: 110px;
+  border-radius: 1rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+</style>
