@@ -41,7 +41,7 @@
             </div>
           </div> -->
 
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://www.insta360.com/sal/go-3?insrc=INRWVK2" target="_blank">
                 <span class="image" :style="go3Feature"></span>
@@ -53,9 +53,20 @@
                 <span class="star"></span>
               </a>
             </div>
+          </div> -->
+
+          <div class="col-12">
+            <div class="featured-item-static widen">
+              <a href="https://brandstore.rode.com/products/podcaster-bundle-white-collection?sca_ref=4474187.QDKA4sS45d" target="_blank">
+                <span class="image" :style="rodeFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>RODE</b> <b>LIMITED EDITION</b><br> <small>WHITE BUNDLE</small></span>
+                  <span class="featured-button btn btn-primary btn-sm">GET OFFER</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
           </div>
-
-
 
           <!-- <div class="featured-item-static">
               <a href="http://go.deltahub.io/443wpdS" target="_blank">
@@ -281,6 +292,7 @@ import piecesfeature from "assets/img/features/pieces.jpg";
 import ascronofeature from "assets/img/features/ascrono.jpg";
 import deltahubfeature from "assets/img/deltahubreo.png";
 import go3feature from "assets/img/features/go3.png";
+import rodefeature from "assets/img/features/rode.jpg";
 
 export default {
   layout: 'default',
@@ -317,6 +329,7 @@ export default {
       ascronoFeature: { backgroundImage: `url(${ascronofeature})` },
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
       go3Feature: { backgroundImage: `url(${go3feature})` },
+      rodeFeature: { backgroundImage: `url(${rodefeature})` },
     };
   }
 };
@@ -325,7 +338,7 @@ export default {
 <style>
 .featured-item-static.widen a .image {
   width: 290px;
-  height: 110px;
+  height: 200px;
   border-radius: 1rem;
   background-size: cover;
   background-position: center;
