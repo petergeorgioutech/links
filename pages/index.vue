@@ -55,13 +55,26 @@
             </div>
           </div> -->
 
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://brandstore.rode.com/products/podcaster-bundle-white-collection?sca_ref=4474187.QDKA4sS45d" target="_blank">
                 <span class="image" :style="rodeFeature"></span>
                 <span class="content">
                   <span class="featured-title"><b>RODE</b> <b>LIMITED EDITION</b><br> <small>WHITE BUNDLE</small></span>
                   <span class="featured-button btn btn-primary btn-sm">GET OFFER</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div> -->
+
+          <div class="col-12">
+            <div class="featured-item-static widen">
+              <a href="https://www.balolo.de/?ref=peterpandev" target="_blank">
+                <span class="image" :style="baloloFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>SETUP COCKPIT</b> <br><small><b>10% OFF</b> <br> with code PETERPANDEV</small></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
                 </span>
                 <span class="star"></span>
               </a>
@@ -293,8 +306,10 @@ import ascronofeature from "assets/img/features/ascrono.jpg";
 import deltahubfeature from "assets/img/deltahubreo.png";
 import go3feature from "assets/img/features/go3.png";
 import rodefeature from "assets/img/features/rode.jpg";
+import balolofeature from "assets/img/features/balolo.jpeg";
 
 export default {
+
   layout: 'default',
   data() {
     return {
@@ -330,6 +345,7 @@ export default {
       deltahubFeature: { backgroundImage: `url(${deltahubfeature})` },
       go3Feature: { backgroundImage: `url(${go3feature})` },
       rodeFeature: { backgroundImage: `url(${rodefeature})` },
+      baloloFeature: { backgroundImage: `url(${balolofeature})` },
     };
   }
 };
