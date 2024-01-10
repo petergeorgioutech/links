@@ -96,6 +96,19 @@
           
           <div class="col-12">
             <div class="featured-item-static widen">
+              <a href="https://shop.minimaldesksetups.com/products/pomodoro-timer?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
+                <span class="image" :style="mdspomodoroFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>POMODORO TIMER by MDS</b></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-12">
+            <div class="featured-item-static widen">
               <a href="https://www.balolo.de/?ref=peterpandev" target="_blank">
                 <span class="image" :style="baloloFeature"></span>
                 <span class="content">
@@ -336,6 +349,7 @@ import balolofeature from "assets/img/features/balolo.jpeg";
 import mdsfeature from "assets/img/features/taskandtime.jpg";
 import mdspadfeature from "assets/img/features/mds.jpg";
 import mdsoilsfeature from "assets/img/features/oils.jpg";
+import mdspomodorofeature from "assets/img/features/pomodoro.jpg";
 
 export default {
 
@@ -378,6 +392,7 @@ export default {
       mdsFeature: { backgroundImage: `url(${mdsfeature})` },
       mdspadFeature: { backgroundImage: `url(${mdspadfeature})` },
       mdsoilsFeature: { backgroundImage: `url(${mdsoilsfeature})` },
+      mdspomodoroFeature: { backgroundImage: `url(${mdspomodorofeature})` },
     };
   }
 };
