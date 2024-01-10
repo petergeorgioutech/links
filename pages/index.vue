@@ -83,6 +83,19 @@
           
           <div class="col-12">
             <div class="featured-item-static widen">
+              <a href="https://shop.minimaldesksetups.com/products/essential-oil-humidifier?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
+                <span class="image" :style="mdsoilsFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>ESSENTIAL OIL HUMIDIFIER by MDS</b></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-12">
+            <div class="featured-item-static widen">
               <a href="https://www.balolo.de/?ref=peterpandev" target="_blank">
                 <span class="image" :style="baloloFeature"></span>
                 <span class="content">
@@ -322,6 +335,7 @@ import rodefeature from "assets/img/features/rode.jpg";
 import balolofeature from "assets/img/features/balolo.jpeg";
 import mdsfeature from "assets/img/features/taskandtime.jpg";
 import mdspadfeature from "assets/img/features/mds.jpg";
+import mdsoilsfeature from "assets/img/features/oils.jpg";
 
 export default {
 
@@ -363,6 +377,7 @@ export default {
       baloloFeature: { backgroundImage: `url(${balolofeature})` },
       mdsFeature: { backgroundImage: `url(${mdsfeature})` },
       mdspadFeature: { backgroundImage: `url(${mdspadfeature})` },
+      mdsoilsFeature: { backgroundImage: `url(${mdsoilsfeature})` },
     };
   }
 };
