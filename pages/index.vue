@@ -70,6 +70,19 @@
 
           <div class="col-12">
             <div class="featured-item-static widen">
+              <a href="https://shop.minimaldesksetups.com/products/task-time-bundle?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
+                <span class="image" :style="mdsFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>TASK & TIME by MDS</b></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-12">
+            <div class="featured-item-static widen">
               <a href="https://www.balolo.de/?ref=peterpandev" target="_blank">
                 <span class="image" :style="baloloFeature"></span>
                 <span class="content">
@@ -307,6 +320,8 @@ import deltahubfeature from "assets/img/deltahubreo.png";
 import go3feature from "assets/img/features/go3.png";
 import rodefeature from "assets/img/features/rode.jpg";
 import balolofeature from "assets/img/features/balolo.jpeg";
+import mdsfeature from "assets/img/features/taskandtime.jpg";
+import mdspadfeature from "assets/img/features/mds.jpg";
 
 export default {
 
@@ -346,6 +361,8 @@ export default {
       go3Feature: { backgroundImage: `url(${go3feature})` },
       rodeFeature: { backgroundImage: `url(${rodefeature})` },
       baloloFeature: { backgroundImage: `url(${balolofeature})` },
+      mdsFeature: { backgroundImage: `url(${mdsfeature})` },
+      mdspadFeature: { backgroundImage: `url(${mdspadfeature})` },
     };
   }
 };
