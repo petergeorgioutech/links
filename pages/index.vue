@@ -68,7 +68,7 @@
             </div>
           </div> -->
 
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://shop.minimaldesksetups.com/products/task-time-bundle?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
                 <span class="image" :style="mdsFeature"></span>
@@ -78,6 +78,13 @@
                 </span>
                 <span class="star"></span>
               </a>
+            </div>
+          </div> -->
+
+          <div class="col-12 text-center mt-2 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HPuFyrSX0W8?si=d9_qCANKx2oP8mBm"
+                allowfullscreen></iframe>
             </div>
           </div>
           
@@ -94,7 +101,7 @@
             </div>
           </div>
           
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://shop.minimaldesksetups.com/products/pomodoro-timer?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
                 <span class="image" :style="mdspomodoroFeature"></span>
@@ -105,7 +112,7 @@
                 <span class="star"></span>
               </a>
             </div>
-          </div>
+          </div> -->
           
           <div class="col-12">
             <div class="featured-item-static widen">
@@ -138,12 +145,13 @@
                 allowfullscreen></iframe>
             </div>
           </div> -->
-          <div class="col-12 text-center mt-2 mb-4">
+          <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yPUX2z16uDM"
                 allowfullscreen></iframe>
             </div>
-          </div>
+          </div> -->
+         
 
         </div>
 
