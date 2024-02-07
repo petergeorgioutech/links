@@ -81,14 +81,14 @@
             </div>
           </div> -->
 
-          <div class="col-12 text-center mt-2 mb-4">
+          <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HPuFyrSX0W8?si=d9_qCANKx2oP8mBm"
                 allowfullscreen></iframe>
             </div>
-          </div>
+          </div> -->
           
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://shop.minimaldesksetups.com/products/essential-oil-humidifier?sca_ref=1578836.V3jOBkjkyk&utm_source=affiliate&utm_medium=1578836&utm_campaign=panayiotis-georgiou" target="_blank">
                 <span class="image" :style="mdsoilsFeature"></span>
@@ -99,7 +99,7 @@
                 <span class="star"></span>
               </a>
             </div>
-          </div>
+          </div> -->
           
           <!-- <div class="col-12">
             <div class="featured-item-static widen">
@@ -224,16 +224,16 @@
         </div> -->
 
         <div class="row mb-3 featured-items">
+          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA."
+            target="_blank" class="featured-item" :style="ebookImage">
+            <span class="featured-title">Get my E-book ✨</span>
+          </a>
           <nuxt-link to="/setup" class="featured-item" :style="setupImage">
             <span class="featured-title">My Setup Gear</span>
           </nuxt-link>
           <nuxt-link to="/get-in-touch" class="featured-item" :style="profileImage">
             <span class="featured-title">Get In Touch</span>
           </nuxt-link>
-          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA."
-            target="_blank" class="featured-item" :style="ebookImage">
-            <span class="featured-title">Get my E-book ✨</span>
-          </a>
           <a href="https://vscodethemes.com/e/morgan-codes.morgan-codes-vscode-theme" target="_blank"
             class="featured-item" :style="vsCodeImage">
             <span class="featured-title">VS Code Theme</span>
