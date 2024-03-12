@@ -116,6 +116,19 @@
           
           <div class="col-12">
             <div class="featured-item-static widen">
+              <a href="https://gridstudio.cc/products/grid-macbook-air-1st-generation?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank">
+                <span class="image" :style="gridFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>Macbook Air (1st Gen)</b> <br>by Grid&reg; <br> <small>10% off with code PETERPANDEV</small></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- <div class="col-12">
+            <div class="featured-item-static widen">
               <a href="https://www.balolo.de/?ref=peterpandev" target="_blank">
                 <span class="image" :style="baloloFeature"></span>
                 <span class="content">
@@ -125,7 +138,7 @@
                 <span class="star"></span>
               </a>
             </div>
-          </div>
+          </div> -->
 
           <!-- <div class="featured-item-static">
               <a href="http://go.deltahub.io/443wpdS" target="_blank">
@@ -358,6 +371,7 @@ import mdsfeature from "assets/img/features/taskandtime.jpg";
 import mdspadfeature from "assets/img/features/mds.jpg";
 import mdsoilsfeature from "assets/img/features/oils.jpg";
 import mdspomodorofeature from "assets/img/features/pomodoro.jpg";
+import gridfeature from "assets/img/features/grid.png";
 
 export default {
 
@@ -401,6 +415,7 @@ export default {
       mdspadFeature: { backgroundImage: `url(${mdspadfeature})` },
       mdsoilsFeature: { backgroundImage: `url(${mdsoilsfeature})` },
       mdspomodoroFeature: { backgroundImage: `url(${mdspomodorofeature})` },
+      gridFeature: { backgroundImage: `url(${gridfeature})` },
     };
   }
 };
