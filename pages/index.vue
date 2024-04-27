@@ -114,12 +114,24 @@
             </div>
           </div> -->
           
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://gridstudio.cc/products/grid-macbook-air-1st-generation?source_type=sales_plugin_af&slt=sales_plugin_af&referral_code=JW7VNR69SBB7" target="_blank">
                 <span class="image" :style="gridFeature"></span>
                 <span class="content">
                   <span class="featured-title"><b>Macbook Air (1st Gen)</b> <br>by Grid&reg; <br> <small>10% off with code PETERPANDEV</small></span>
+                  <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
+                </span>
+                <span class="star"></span>
+              </a>
+            </div>
+          </div> -->
+          <div class="col-12">
+            <div class="featured-item-static widen">
+              <a href="https://ascrono.com/products/ascrono-cablecare-tray?ref=PETERPANDEV" target="_blank">
+                <span class="image" :style="ascronoCableFeature"></span>
+                <span class="content">
+                  <span class="featured-title"><b>Ascrono® CableCare Tray</b></span>
                   <span class="featured-button btn btn-primary btn-sm">SHOP NOW</span>
                 </span>
                 <span class="star"></span>
@@ -372,6 +384,7 @@ import mdspadfeature from "assets/img/features/mds.jpg";
 import mdsoilsfeature from "assets/img/features/oils.jpg";
 import mdspomodorofeature from "assets/img/features/pomodoro.jpg";
 import gridfeature from "assets/img/features/grid.png";
+import ascronocableFeature from "assets/img/features/ascronocable.png";
 
 export default {
 
@@ -416,6 +429,7 @@ export default {
       mdsoilsFeature: { backgroundImage: `url(${mdsoilsfeature})` },
       mdspomodoroFeature: { backgroundImage: `url(${mdspomodorofeature})` },
       gridFeature: { backgroundImage: `url(${gridfeature})` },
+      ascronoCableFeature: { backgroundImage: `url(${ascronocableFeature})` },
     };
   }
 };
