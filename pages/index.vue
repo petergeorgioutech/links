@@ -249,7 +249,7 @@
         </div> -->
 
         <div class="row mb-3 featured-items">
-          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code/LimitedOffer?_gl=1*1v05axw*_ga*OTU3NjAwNDAxLjE2NzAzNTgyNzM.*_ga_6LJN6D94N6*MTY3NjAyOTc0Ni4yOC4xLjE2NzYwMjk4NzEuMC4wLjA."
+          <a href="https://peterpandev.gumroad.com/l/start-learning-how-to-code"
             target="_blank" class="featured-item" :style="ebookImage">
             <span class="featured-title">Get my E-book ✨</span>
           </a>
