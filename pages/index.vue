@@ -35,6 +35,14 @@
               Accepting <span class="project_type">Brand Collaborations</span>
             </a> -->
           </div>
+
+          <div class="col-12 text-center mt-2 mb-4">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XyWENE4JfdI?si=MyijmQcYMAHru3MG"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+
           <!-- <div class="col-12 text-center mt-2 mb-4">
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CzYe6oh96mw" allowfullscreen></iframe>
@@ -126,7 +134,7 @@
               </a>
             </div>
           </div> -->
-          <div class="col-12">
+          <!-- <div class="col-12">
             <div class="featured-item-static widen">
               <a href="https://ascrono.com/products/ascrono-cablecare-tray?ref=PETERPANDEV" target="_blank">
                 <span class="image" :style="ascronoCableFeature"></span>
@@ -137,7 +145,7 @@
                 <span class="star"></span>
               </a>
             </div>
-          </div>
+          </div> -->
           
           <!-- <div class="col-12">
             <div class="featured-item-static widen">
